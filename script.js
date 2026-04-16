@@ -49,3 +49,14 @@ switch (diaSemana) {
 for (let i = 0; i < 10; i++) {
     console.log(i);
 }
+
+//Questão 5 – Loop While
+soma = 0;
+i = 0;
+
+while (i <= 5) {
+    soma += i;
+    i++;
+   
+}
+ console.log(soma)
