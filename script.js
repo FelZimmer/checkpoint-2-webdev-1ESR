@@ -60,3 +60,12 @@ while (i <= 5) {
    
 }
  console.log(soma)
+
+ // Questão 6 – Loop do/while
+ let contador = 3;
+ do{ 
+    console.log(contador)
+    contador--;
+ }while(contador >=1)
+console.log("FIM!!")
+
