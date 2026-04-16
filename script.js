@@ -44,3 +44,8 @@ switch (diaSemana) {
         console.log("Sábado");
         break;
 }
+
+// Questão 4 – Loop For
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
