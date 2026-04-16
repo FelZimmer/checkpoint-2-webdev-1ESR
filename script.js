@@ -105,5 +105,16 @@ if(temSenhaCorreta || temBiometriaAutenticada){
 console.log(`Tem acesso perimitido: ${acessoPermitido}`);
 console.log(`Tem acesso negado: ${!acessoPermitido}`);
 
+// Questão 9 – Manipulação de Strings
+let tarefas = "Lavar,Comer,Estudar,Licao";
+let tarefasArray = tarefas.split(",");
+console.log(tarefasArray);
+let tarefaFormatada = tarefasArray.join(" | ");
+console.log(tarefaFormatada);
+console.log(tarefasArray.includes("Estudar"));
+
+
+
+
 
 
