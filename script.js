@@ -113,6 +113,13 @@ let tarefaFormatada = tarefasArray.join(" | ");
 console.log(tarefaFormatada);
 console.log(tarefasArray.includes("Estudar"));
 
+// Questão 10 – Números Aleatórios e Área de Círculo
+function numeroaleatorio(min = 5, max = 15){
+   return (Math.random() * (max - min + 1 ) + min).toFixed(0)
+}
+raio = numeroaleatorio()
+console.log((Math.PI * (Math.pow(raio, 2))).toFixed(2))
+
 
 
 
