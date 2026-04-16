@@ -90,7 +90,20 @@ console.log(verificarIdade(17));
 console.log(verificarIdade(20));
 console.log(verificarIdade(69));
 
+// Questão 8 – Acesso ao Sistema
 
+let temSenhaCorreta  = true;
+let temBiometriaAutenticada = true;
+
+let acessoPermitido = false;
+
+if(temSenhaCorreta || temBiometriaAutenticada){
+    acessoPermitido = true;
+    
+}
+
+console.log(`Tem acesso perimitido: ${acessoPermitido}`);
+console.log(`Tem acesso negado: ${!acessoPermitido}`);
 
 
 
